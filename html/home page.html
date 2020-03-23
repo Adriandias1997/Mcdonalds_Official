@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<style>
+html {
+    background:url("../pics/downspace.gif") no-repeat center fixed;
+    background-size:  cover;}
+
+.btn-group .button {
+    background:none; /* black */
+    border: 0px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    width: 189px;
+    height: auto;
+    color: #ffad06;
+    background:none;
+    display: block;
+      transition-duration:.10s;
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  
+}
+
+.btn-group span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition:1s;
+}
+.btn-group span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: .10s;
+}
+.btn-group:hover span {
+  padding-left: 25px;
+ }
+.button:hover span:after {
+  opacity: 5;
+  right: 0;
+}
+</style>
+</head>
+<img src="../pics/mc_burger_3.gif"width="255"height="180"><hr>
+<body>
+
+<div class="btn-group">
+  <a href="Slider.html"target="main"< class="button"><span><i class="fa fa-home"></i></span></a>
+  <a href="menu.html"target="main"< class="button"><span>Menu</span></a>
+  <a href="support.html"target="main"< class="button"><span>Support</span></a>
+  <a href="about.html"target="main"< class="button"><span>About us</span></a>
+  <a href="contact.html"target="main"< class="button"><span>Contact us</span></a>
+  <a href="Privacy Policy.html"target="main"< class="button"><span>Privacy Policy</span></a>
+  <a href="Ourgroup.html"target="main"< class="button"><span>Our group</span></a>
+</div>
+</body>
+</html>
